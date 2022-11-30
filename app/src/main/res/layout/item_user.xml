@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/user_img_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        tools:srcCompat="@tools:sample/avatars"
+        />
+
+    <TextView
+        android:id="@+id/usernameTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        tools:text="Pulkit Agarwal"
+        android:layout_weight="1"
+        android:layout_marginStart="13dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_primary"
+        />
+
+</LinearLayout>
